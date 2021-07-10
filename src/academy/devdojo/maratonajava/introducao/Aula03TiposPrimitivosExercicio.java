@@ -8,7 +8,7 @@ confirmo que recebi o salário de <salario>, na data <data>
  */
 
 public class Aula03TiposPrimitivosExercicio {
-    
+
     public static void main(String[] args) {
         String nome = "Kirito";
         String endereco = "Av Joao das galileias";
