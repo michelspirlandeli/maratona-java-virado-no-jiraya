@@ -17,5 +17,5 @@ public class Aula06EstruturasDeRepeticao01 {
             System.out.println("For "+i);
         }
     }
-    
+
 }
