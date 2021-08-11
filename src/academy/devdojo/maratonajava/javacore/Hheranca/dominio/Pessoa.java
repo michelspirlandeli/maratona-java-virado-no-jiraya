@@ -4,9 +4,21 @@ public class Pessoa {
     protected String nome;
     protected String cpf;
     protected Endereco endereco;
-
+    static {
+        System.out.println("Dentro do bloco de inicialização estático de pessoa");
+    }
+    {
+        System.out.println("Dentro do bloco inicialização de pessoa 1");
+    }
+    {
+        System.out.println("Dentro do bloco inicialização de pessoa 2");
+    }
     public Pessoa(String nome){
         this.nome = nome;
+    }
+
+    public Pessoa() {
+
     }
 
     public void imprime() {
