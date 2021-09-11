@@ -28,6 +28,14 @@ public class RuntimeExceptionTest04 {
             e.printStackTrace();
         }
 
+        try {
+            throw new RuntimeException();
+        } catch (ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException e) {
+            System.out.println("Dentro do ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException");
+        } catch (RuntimeException e) {
+            System.out.println("Dentro do RuntimeException");
+        }
+
     }
 
     private static void talvezLanceException() throws SQLException, FileNotFoundException {
